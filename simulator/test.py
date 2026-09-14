@@ -1,0 +1,1 @@
+print("FinGraph Setup Successful")
