@@ -19,3 +19,27 @@ Project environment setup completed successfully.
 
 **Next Day Plan**
 Develop transaction simulator for generating banking transactions.
+
+# FinGraph – Day 2 Progress
+
+**Work Completed**
+
+- Developed Python transaction generator.
+- Generated synthetic transaction data.
+- Created sender-receiver account relationships.
+- Added transaction amount and timestamp generation.
+- Exported data to `transactions.csv`.
+- Performed basic testing and validation.
+
+**Files Created**
+
+- simulator/transaction_generator.py
+- data/transactions.csv
+
+**Status**
+
+✅ Transaction dataset generated successfully.
+
+**Next Step**
+
+Implement fraud syndicate patterns (Starburst, Circular Flow, Layering).
