@@ -43,3 +43,34 @@ Develop transaction simulator for generating banking transactions.
 **Next Step**
 
 Implement fraud syndicate patterns (Starburst, Circular Flow, Layering).
+
+# FinGraph – Day 3 Progress
+
+**Work Completed**
+
+- Implemented fraud transaction pattern generation.
+- Created Starburst transaction pattern.
+- Created Circular Flow transaction pattern.
+- Created Layering transaction pattern.
+- Generated synthetic fraud transaction dataset.
+- Exported fraud transactions to CSV format.
+- Performed basic testing and validation.
+
+**Files Created**
+
+- simulator/fraud_patterns.py
+- data/fraud_transactions.csv
+
+**Fraud Patterns Implemented**
+
+- Starburst Pattern
+- Circular Flow Pattern
+- Layering Pattern
+
+**Status**
+
+✅ Fraud transaction dataset generated successfully.
+
+**Next Step**
+
+Configure Apache Kafka and create the transactions topic for real-time streaming.
