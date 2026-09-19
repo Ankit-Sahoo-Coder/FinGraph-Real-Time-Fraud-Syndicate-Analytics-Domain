@@ -74,3 +74,48 @@ Implement fraud syndicate patterns (Starburst, Circular Flow, Layering).
 **Next Step**
 
 Configure Apache Kafka and create the transactions topic for real-time streaming.
+
+# FinGraph – Day 5 Progress
+
+**Work Completed**
+
+- Installed Kafka Python library (`kafka-python`).
+- Created Python Kafka Producer.
+- Connected Python Producer to Kafka broker.
+- Loaded transaction data from CSV files.
+- Converted transaction records into JSON format.
+- Published transaction data to Kafka `transactions` topic.
+- Tested message delivery using Kafka Consumer.
+
+**Files Created**
+
+- kafka/producer.py
+- docs/day5_progress.md
+
+**Kafka Topic**
+
+- transactions
+
+**Data Flow**
+
+Transaction Dataset
+↓
+Python Kafka Producer
+↓
+Kafka Topic (transactions)
+↓
+Kafka Consumer
+
+**Testing**
+
+- Producer connected successfully to Kafka.
+- Messages published to `transactions` topic.
+- Consumer received transaction messages correctly.
+
+**Status**
+
+✅ Python Kafka Producer implemented and tested successfully.
+
+**Next Step**
+
+Implement Kafka Consumer and prepare data for Neo4j graph ingestion.
