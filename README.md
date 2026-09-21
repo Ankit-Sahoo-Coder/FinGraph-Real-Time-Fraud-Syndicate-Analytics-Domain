@@ -75,6 +75,41 @@ Implement fraud syndicate patterns (Starburst, Circular Flow, Layering).
 
 Configure Apache Kafka and create the transactions topic for real-time streaming.
 
+# FinGraph – Day 4 Progress
+
+**Work Completed**
+
+- Installed Apache Kafka.
+- Configured Kafka in KRaft mode.
+- Generated Kafka Cluster ID.
+- Formatted Kafka storage.
+- Started Kafka broker successfully.
+- Created `transactions` topic.
+- Verified Kafka topic configuration.
+- Tested Kafka producer and consumer communication.
+
+**Kafka Topic**
+
+- transactions
+
+**Testing**
+
+- Successfully created Kafka topic.
+- Verified topic using Kafka commands.
+- Confirmed message flow between producer and consumer.
+
+**Files Added**
+
+- docs/day4_progress.md
+
+**Status**
+
+✅ Apache Kafka configured and ready for real-time transaction streaming.
+
+**Next Step**
+
+Implement Python Kafka Producer to stream transaction data into Kafka.
+
 # FinGraph – Day 5 Progress
 
 **Work Completed**
