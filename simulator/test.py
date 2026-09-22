@@ -1,1 +1,0 @@
-print("FinGraph Setup Successful")

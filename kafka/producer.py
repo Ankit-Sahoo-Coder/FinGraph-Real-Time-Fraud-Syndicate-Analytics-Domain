@@ -17,7 +17,6 @@ print("Sending transactions...\n")
 
 # Send transactions
 for _, row in df.iterrows():
-
     transaction = {
         "transaction_id": row["transaction_id"],
         "sender_account": row["sender_account"],
@@ -27,7 +26,6 @@ for _, row in df.iterrows():
     }
 
     producer.send("transactions", value=transaction)
-
     print("Sent:", transaction)
 
     time.sleep(0.5)
