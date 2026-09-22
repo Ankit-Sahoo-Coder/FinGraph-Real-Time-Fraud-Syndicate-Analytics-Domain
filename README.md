@@ -154,3 +154,21 @@ Kafka Consumer
 **Next Step**
 
 Implement Kafka Consumer and prepare data for Neo4j graph ingestion.
+
+# Day 6 - Apache Flink Setup
+
+**Work Completed**
+
+- Installed Apache Flink.
+- Configured Flink environment.
+- Verified Java installation.
+- Started Flink cluster.
+- Verified Flink Web Dashboard.
+
+**Testing**
+
+Flink JobManager and TaskManager were started successfully.
+
+**Output**
+
+Flink dashboard is accessible at localhost:8081.
